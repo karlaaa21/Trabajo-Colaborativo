@@ -19,3 +19,10 @@ if num3 % 2 == 0 :
     contador_par += 1
 else:
     contador_impar += 1
+print(f"numeros pares ingresados : {contador_par}")
+print(f"numeros impares ingresados : {contador_impar}")
+
+suma_total= num1 + num2 + num3
+
+if suma_total > 100 : 
+    print("La suma total es mayor a 100")
