@@ -26,3 +26,11 @@ suma_total= num1 + num2 + num3
 
 if suma_total > 100 : 
     print("La suma total es mayor a 100")
+elif suma_total == 100 :
+    print("La suma total es igual a 100")
+else :
+    print("La suma total es menor a 100")
+if suma_total % 2 == 0 :
+    print("La suma es par")
+else :
+    print("La suma es impar")
